@@ -1,1 +1,52 @@
-<mxfile host="app.diagrams.net" modified="2022-02-22T03:13:48.931Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" version="16.6.2" etag="NcUWKfnJbe6v3EOKHpcF" type="github"><diagram id="9sV9KQ6PkCKbHvdngsdZ">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-02-22T09:40:44.301Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="bix7E75h7K1CuCS7Nllc" version="16.6.2" type="github">
+  <diagram id="9sV9KQ6PkCKbHvdngsdZ" name="Page-1">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="O9llKcB3kSom8rvQ_z7g-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="O9llKcB3kSom8rvQ_z7g-1" target="O9llKcB3kSom8rvQ_z7g-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="O9llKcB3kSom8rvQ_z7g-1" value="开始" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="O9llKcB3kSom8rvQ_z7g-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="O9llKcB3kSom8rvQ_z7g-2" target="O9llKcB3kSom8rvQ_z7g-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="O9llKcB3kSom8rvQ_z7g-2" value="L4092_01_01_find_custr&lt;br&gt;获取Custr(客户信息)&lt;br&gt;Cusp(客户补充信息)&lt;br&gt;S4092_variable中间变量(简称sv)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="90" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="O9llKcB3kSom8rvQ_z7g-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="O9llKcB3kSom8rvQ_z7g-6" target="O9llKcB3kSom8rvQ_z7g-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="O9llKcB3kSom8rvQ_z7g-6" value="sv.raceCode不能为空&lt;br&gt;且int类型不为0" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="210" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="O9llKcB3kSom8rvQ_z7g-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="O9llKcB3kSom8rvQ_z7g-8" target="O9llKcB3kSom8rvQ_z7g-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="O9llKcB3kSom8rvQ_z7g-12" value="异常" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="O9llKcB3kSom8rvQ_z7g-11">
+          <mxGeometry x="-0.2966" relative="1" as="geometry">
+            <mxPoint x="14" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="O9llKcB3kSom8rvQ_z7g-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="O9llKcB3kSom8rvQ_z7g-8" target="O9llKcB3kSom8rvQ_z7g-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="O9llKcB3kSom8rvQ_z7g-8" value="调用qryParaCodes&lt;br&gt;(GLB_BANK,GC_ETHNIC_CODE&lt;br&gt;,S4092_variable.Race_code)赋值给表对象Codes" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="275" y="340" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="O9llKcB3kSom8rvQ_z7g-10" value="数据库异常:错误码880720&lt;br&gt;未查询到数据:错误码9442" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="630" y="340" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="O9llKcB3kSom8rvQ_z7g-13" value="" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="340" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
